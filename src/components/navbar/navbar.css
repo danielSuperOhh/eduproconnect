@@ -45,7 +45,28 @@
 .nav-links{
     display: flex;
     gap: 48px;
-    transition: 0.4s ease-in-out;
+    transition: width 0.3s ease;
+}
+
+.active p {
+    position: relative;
+    transition: width 0.3s ease;
+}
+  
+.active p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background-color: #ACD653;
+    transition: width 0.3s ease;
+}
+
+.active:hover p::after {
+    width: 100%; 
+    transition: width 0.3s ease;
 }
 
 .nav-links p{
@@ -58,8 +79,30 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-links a{
+    text-decoration: none;
+}
+
 .contact {
     position: relative;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.contact:hover{
+    animation: bounce 1s infinite;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-20px);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
 }
 
 .contact p{

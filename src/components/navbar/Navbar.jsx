@@ -1,10 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import navVector from '../../assets/navVector.svg';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
+  const location = useLocation();
+  const handleContactUsClick = () => {
+    const subject = encodeURIComponent('Inquiry');
+    const body = encodeURIComponent('Good day,\n\nI would like to inquire about...');
+
+    const mailtoLink = `mailto:eduproeduproconnect@gmail.com?subject=${subject}&body=${body}`;
+
+    window.location.href = mailtoLink;
+  };
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [activeLink, setActiveLink] = useState('/');
 
   useEffect(() => {
     const handleScroll = () => {
@@ -21,6 +33,10 @@ const Navbar = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    setActiveLink(location.pathname);
+  }, [location]);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -49,10 +65,10 @@ const Navbar = () => {
       </div>
       <div className="navigation">
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <p>About</p>
-          <p>Blog</p>
-          <p>Help</p>
-          <div className='contact'>
+          <Link to="/" className={activeLink === '/' ? 'active' : ''}><p>Home</p></Link>
+          <Link to="/about" className={activeLink === '/about' ? 'active' : ''}><p>About</p></Link>
+          <Link to="/blog" className={activeLink === '/blog' ? 'active' : ''}><p>Blog</p></Link>
+          <div className='contact' onClick={handleContactUsClick}>
             <img src={navVector} alt="" />
             <p>Contact</p>
           </div>
