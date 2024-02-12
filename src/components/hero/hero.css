@@ -1,0 +1,80 @@
+.heroSection{
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 40px;
+}
+
+.cta{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta h1{
+    font-size: 120px;
+    letter-spacing: -4px;
+    font-family: 'Francois One', sans-serif;
+    line-height: 100%;
+    color: #FAF0E6;
+    font-weight: 100;
+    text-align: center;
+    max-width: 900px;
+}
+
+.expe{
+    color: #fad95c;
+    font-family: 'Francois One', sans-serif;
+    font-weight: bold;
+}
+
+.ways{
+    font-size: bold;
+}
+
+.learn {
+    color: #707eff;
+    font-weight: 900;
+    font-family: 'Bangers', system-ui;
+    letter-spacing: 4px;
+}
+
+@media screen and (max-width: 900px){
+    .heroSection{
+        padding: 0px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cta h1{
+        font-size: 100px;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .heroSection{
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .heroSection{
+        padding: 0px 25px;
+    }
+
+    .cta h1{
+        font-size: 75px;
+    }    
+}
+
+@media screen and (max-height: 560px) {
+    .heroSection{
+        padding: 70px 25px 50px 25px;
+    }
+
+    .cta h1{
+        font-size: 75px;
+    }    
+}

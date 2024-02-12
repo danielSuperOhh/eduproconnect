@@ -1,0 +1,56 @@
+.section3{
+    width: 100%;
+    height: fit-content;
+    background-color: #242424;
+    padding: 30px 60px
+}
+
+.section3head{  
+    padding-bottom: 40px;
+}
+
+.section3head h1{
+    font-size: 75px;
+    color: #FAF0E6;
+    font-family: 'Francois One', sans-serif;
+    line-height: 100%;
+    letter-spacing: -1px;
+}
+
+.easy{
+    font-family: 'Bangers', system-ui;
+    color: #ACD653;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 900px){
+    .section3{
+        width: 100%;
+        padding: 30px 50px
+    }    
+
+    .section3head h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 866px){
+    .section3head{
+        text-wrap: wrap;
+    }
+
+    .our, .eduy {
+        display: block; /* Ensure each span is on its own line */
+      }
+}
+
+@media screen and (max-width: 550px){
+    .section3{
+        padding: 30px 20px
+    }   
+    
+    .section3head h1{
+        font-size: 48px;
+    }
+}

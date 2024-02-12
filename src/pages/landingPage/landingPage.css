@@ -1,0 +1,12 @@
+.landingPage{
+    width: 100%;
+    height: auto;
+}
+
+.landing {
+    width: 100%;
+    background-image: url(../../assets/pencil.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

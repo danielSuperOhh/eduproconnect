@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Francois+One&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Rubik+Maps&family=Rubik+Scribble&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bangers', system-ui;
+  font-family: 'Francois One', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik Maps', system-ui;
+  font-family: 'Rubik Scribble', system-ui;
+}
+
+body{
+  overflow-x: hidden;
+  background-color: #242424;
+}

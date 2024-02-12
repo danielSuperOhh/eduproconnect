@@ -1,0 +1,88 @@
+.tab1 {
+    background-color: #fbdf72;
+    width: 250px;
+    border-top-left-radius: 20px !important;
+    z-index: 3;
+}
+
+.tab2 {
+    background-color: #7783fe;
+    width: 250px;
+    z-index: 2;
+}
+
+.tab3 {
+    background-color: #f3a1ff;
+    width: 250px;
+    z-index: 2;
+    border-top-right-radius: 20px !important;
+}
+
+.content1{
+    background-color: #fbdf72;
+    height: fit-content;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.point1{
+    padding: 15px 20px;
+}
+
+.point1 h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #312f2d;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.content2{
+    background-color: #7783fe;
+    height: fit-content;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.content3{
+    background-color: #f3a1ff;
+    height: fit-content;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@media screen and (max-width: 900px){
+    .tab1, .tab2, .tab3 {
+        width: 150px;
+    }     
+}
+
+@media screen and (max-width: 600px){
+    .tab1, .tab2, .tab3 {
+        width: 150px;
+    }    
+}
+
+@media screen and (max-width: 500px){
+    .tab1, .tab2, .tab3 {
+        width: 110px;
+    }    
+
+    .point1{
+        padding: 15px 0px;
+    }
+    
+    .point1 h1{
+        font-family: 'Montserrat', sans-serif;
+        color: #312f2d;
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    
+}

@@ -1,0 +1,66 @@
+.section1{
+    width: 100%;
+    height: fit-content;
+    background-color: #242424;
+}
+
+.sectionhead{
+    padding: 100px 60px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionheadtext h1{
+    font-family: 'Francois One', sans-serif;
+    color: #FAF0E6;
+    font-size: 74px;
+}
+
+.edu{
+    font-family: 'Rubik Scribble', system-ui;
+    color: #ACD653;
+}
+
+.edu h1{
+    color: rgb(54, 55, 54);
+    font-size: 70px;
+}
+
+@media screen and (max-width: 900px){
+    .section1{
+        height: fit-content;
+        padding-bottom: 40px;
+    }
+    
+    .sectionhead{
+        padding: 60px 60px 0px 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }    
+
+    .sectionheadtext h1{
+        font-size: 60px;
+    }
+    
+    .edu h1{
+        font-size: 45px;
+    }    
+}
+
+@media screen and (max-width: 900px) {
+    .sectionheadtext h1{
+        line-height: 100%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .sectionhead{
+        padding: 60px 20px 20px;
+    }    
+
+    .sectionheadtext h1{
+        font-size: 48px;
+    }
+}

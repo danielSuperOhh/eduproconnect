@@ -1,0 +1,21 @@
+.scroll-to{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1.7px solid #3498db;
+    color: #302c2c;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+}
+
+.scroll-to.visible{
+    display: block;
+}
+
+svg{
+    height: 28px;
+    width: 28px;
+    /* stroke: #3498db; */
+}
