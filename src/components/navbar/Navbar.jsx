@@ -65,9 +65,9 @@ const Navbar = () => {
       </div>
       <div className="navigation">
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <Link to="/" className={activeLink === '/' ? 'active' : ''}><p>Home</p></Link>
-          <Link to="/about" className={activeLink === '/about' ? 'active' : ''}><p>About</p></Link>
-          <Link to="/blog" className={activeLink === '/blog' ? 'active' : ''}><p>Blog</p></Link>
+          <Link to="/" className={activeLink === '/' ? 'activee' : ''}><p>Home</p></Link>
+          <Link to="/about" className={activeLink === '/about' ? 'activee' : ''}><p>About</p></Link>
+          <Link to="/blog" className={activeLink === '/blog' ? 'activee' : ''}><p>Blog</p></Link>
           <div className='contact' onClick={handleContactUsClick}>
             <img src={navVector} alt="" />
             <p>Contact</p>

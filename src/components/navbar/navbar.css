@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 25px 83px;
-    /* background-color: #242424; */
     z-index: 999;
     position: fixed;
     top: 0;
@@ -48,12 +47,13 @@
     transition: width 0.3s ease;
 }
 
-.active p {
+.activee p {
     position: relative;
+    display: inline;
     transition: width 0.3s ease;
 }
   
-.active p::after {
+.activee p::after {
     content: '';
     position: absolute;
     left: 0;
@@ -64,8 +64,8 @@
     transition: width 0.3s ease;
 }
 
-.active:hover p::after {
-    width: 100%; 
+.activee:hover p::after {
+    width: auto; 
     transition: width 0.3s ease;
 }
 
@@ -109,7 +109,6 @@
     z-index: 3;
 }
 
-
 .contact img{
     position: absolute;
     top: -9px;
@@ -120,7 +119,6 @@
     stroke: #323230;
     display: block;
 }
-
 
 @media (max-width: 768px) {
     .navBar{
