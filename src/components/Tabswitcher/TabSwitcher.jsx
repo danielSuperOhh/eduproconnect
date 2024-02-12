@@ -32,7 +32,7 @@ const TabSwitcher = () => {
       </Tabs>
       <Box className={`content1 ${value === 0 ? 'active' : ''}`} sx={{ backgroundColor: '#fbdf72', p: 3, display: value === 0 ? 'block' : 'none' }}>
             <div className="point1">
-                <h1>What is EduProConnect?</h1>
+                <h1>What is EduProConnect</h1>
 
                 <p>
                     EduProConnect is an Edutech startup that provides a comprehensive platform connecting
@@ -41,7 +41,7 @@ const TabSwitcher = () => {
             </div>
 
             <div className="point1">
-                <h1>How does EduProConnect ensure the quality of educators?</h1>
+                <h1>How does EduProConnect ensure the quality of educators</h1>
 
                 <p>We rigorously vet educators through a thorough screening process, considering 
                     their qualifications, experience, and teching methods. Student feedback is also
@@ -50,7 +50,7 @@ const TabSwitcher = () => {
             </div>
 
             <div className="point1">
-                <h1>What is the pricing model for EduProConnect?</h1>
+                <h1>What is the pricing model for EduProConnect</h1>
 
                 <p>
                     EduProConnect offers flexibles pricing plans, allowing students to choose options that
@@ -60,7 +60,7 @@ const TabSwitcher = () => {
        </Box>
        <Box className={`content2 ${value === 1 ? 'active' : ''}`} sx={{ backgroundColor: '#707eff', p: 3, display: value === 1 ? 'block' : 'none' }}>
             <div className="point1">
-                <h1>What subjects and level does EduProConnect cover?</h1>
+                <h1>What subjects and levels does EduProConnect cover?</h1>
 
                 <p>
                     EduProConnect offers a diverse range of subjects and caters to various
@@ -89,7 +89,7 @@ const TabSwitcher = () => {
         </Box>
         <Box className={`content3 ${value === 2 ? 'active' : ''}`} sx={{ backgroundColor: '#f3a1ff', p: 3, display: value === 2 ? 'block' : 'none' }}>
             <div className="point1">
-                <h1>How are sessions conducated on EduProConnect?</h1>
+                <h1>How are sessions conducted on EduProConnect</h1>
 
                 <p>
                     Educators and students can engage in live, interactive sessions through our
