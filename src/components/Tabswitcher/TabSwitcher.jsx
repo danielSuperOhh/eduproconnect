@@ -36,15 +36,15 @@ const TabSwitcher = () => {
 
                 <p>
                     EduProConnect is an Edutech startup that provides a comprehensive platform connecting
-                    students with educators for personalized learning experinces.
+                    students with educators for personalized learning experiences.
                 </p>
             </div>
 
             <div className="point1">
-                <h1>How does EduProConnect ensure the quality of educators</h1>
+                <h1>How does EduProConnect ensure the quality of educators?</h1>
 
                 <p>We rigorously vet educators through a thorough screening process, considering 
-                    their qualifications, experience, and teching methods. Student feedback is also
+                    their qualifications, experience, and teaching methods. Student feedback is also
                     actively monitored to maintian high standards.
                 </p>
             </div>
@@ -53,7 +53,7 @@ const TabSwitcher = () => {
                 <h1>What is the pricing model for EduProConnect</h1>
 
                 <p>
-                    EduProConnect offers flexibles pricing plans, allowing students to choose options that
+                    EduProConnect offers flexible pricing plans, allowing students to choose options that
                     best fit their budget and learning needs.
                 </p>
             </div>
@@ -63,8 +63,8 @@ const TabSwitcher = () => {
                 <h1>What subjects and levels does EduProConnect cover?</h1>
 
                 <p>
-                    EduProConnect offers a diverse range of subjects and caters to various
-                    educational levels, from elemtary to higher education and beyond.
+                    Elementary to higher education and personal development. All of these are targeted
+                    towards the growth and development of the teachers at these levels of learning.
                 </p>
             </div>
 
