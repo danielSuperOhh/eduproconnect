@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './navbar.css';
 import navVector from '../../assets/navVector.svg';
 import { Link, useLocation } from 'react-router-dom';
+import eduproco from '../../assets/eduproco.png'
 
 const Navbar = () => {
   const location = useLocation();
@@ -60,8 +61,9 @@ const Navbar = () => {
         )}
       </div>
       <div className="logo">
-        <div className="icon"></div>
-        <p>EduProconnect</p>
+        <div className="icon">
+          <img src={eduproco} alt="" />
+        </div>
       </div>
       <div className="navigation">
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
